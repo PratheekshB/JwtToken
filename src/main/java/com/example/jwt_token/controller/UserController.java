@@ -12,6 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("/info")
     public ResponseEntity<String> userInfo() {
-        return ResponseEntity.ok("User information");
+        return ResponseEntity.ok ("User information");
     }
 }
