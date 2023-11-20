@@ -13,6 +13,6 @@ public class AdminController {
 
     @GetMapping("/info")
     public ResponseEntity<String> adminInfo() {
-        return ResponseEntity.ok("Admin information");
+        return ResponseEntity.ok ("Admin information");
     }
 }
